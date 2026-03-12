@@ -13,7 +13,7 @@ import { dashboardStyles as s } from "../../assets/dummyStyles";
 
 
 
-const API_BASE = import.meta.env.VITE_API_URL || "https://admin-medicare-ym.vercel.app";
+const API_BASE = import.meta.env.VITE_API_URL || "https://backend-medicare-ym.vercel.app";
 
 const PATIENT_COUNT_API = `${API_BASE}/api/appointments/paitents/count`;
 

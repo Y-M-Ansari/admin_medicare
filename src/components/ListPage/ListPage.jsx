@@ -99,7 +99,7 @@ function getSortedScheduleDates(scheduleLike) {
 
 
 export default function AnimatedDoctorListResponsive({ apiBase }) {
-  const API_BASE = apiBase || import.meta.env.VITE_API_URL || "https://admin-medicare-ym.vercel.app";
+  const API_BASE = apiBase || import.meta.env.VITE_API_URL || "https://backend-medicare-ym.vercel.app";
 
   const [doctors, setDoctors] = useState([]);
   const [expanded, setExpanded] = useState(null);

@@ -19,7 +19,7 @@ import { serviceAppointmentsStyles } from "../../assets/dummyStyles";
 
 
 
-const API_BASE = import.meta.env.VITE_API_URL || "https://admin-medicare-ym.vercel.app";
+const API_BASE = import.meta.env.VITE_API_URL || "https://backend-medicare-ym.vercel.app";
 
 
 

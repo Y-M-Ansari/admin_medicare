@@ -248,9 +248,9 @@ export default function DoctorDetailPage() {
 
       if (form.imageFile) fd.append("image", form.imageFile);
 
-      const API_BASE = (import.meta.env.VITE_API_URL || "https://admin-medicare-ym.vercel.app") + "/api";
+      const API_BASE = import.meta.env.VITE_API_URL || "https://backend-medicare-ym.vercel.app";
 
-      const res = await fetch(`${API_BASE}/doctors`, {
+      const res = await fetch(`${API_BASE}/api/doctors`, {
         method: "POST",
         body: fd,
       });

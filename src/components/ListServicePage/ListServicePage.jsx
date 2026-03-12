@@ -13,7 +13,7 @@ import {
 import { serviceListStyles as s } from "../../assets/dummyStyles";
 
 export default function ListServicePage({ apiBase }) {
-  const API_BASE = apiBase || import.meta.env.VITE_API_URL || "https://admin-medicare-ym.vercel.app";
+  const API_BASE = apiBase || import.meta.env.VITE_API_URL || "https://backend-medicare-ym.vercel.app";
 
   const [services, setServices] = useState([]);
   const [openDetails, setOpenDetails] = useState({});
