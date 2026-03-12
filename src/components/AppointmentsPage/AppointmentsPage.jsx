@@ -236,7 +236,7 @@ export default function AppointmentsPage() {
           setAppointments(items);
         }
       } catch (e) {
-        
+        console.error("Failed to reload appointments:", e);
       }
     }
   }
